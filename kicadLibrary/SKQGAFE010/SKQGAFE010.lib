@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SKQGAFE010
+#
+DEF SKQGAFE010 S 0 40 Y Y 1 L N
+F0 "S" -200 210 50 H V L BNN
+F1 "SKQGAFE010" -200 -300 50 H V L BNN
+F2 "SW_SKQGAFE010" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "ALPS" 0 0 50 H I L BNN "MF"
+F5 "\nSwitch Tactile N.O. SPST Button Gull Wing 0.05A 12VDC 0.98N SMD T/R\n" 0 0 50 H I L BNN "Description"
+F6 "None" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/SKQGAFE010/ALPS/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F9 "B1" 0 0 50 H I L BNN "PART_REV"
+F10 "MANUFACTURER RECOMMENDATIONS" 0 0 50 H I L BNN "STANDARD"
+F11 "https://www.snapeda.com/parts/SKQGAFE010/ALPS/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F12 "SKQGAFE010" 0 0 50 H I L BNN "MP"
+F13 "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=300873&manufacturer=ALPS&part_name=SKQGAFE010&search_term=None" 0 0 50 H I L BNN "Purchase-URL"
+F14 "In Stock" 0 0 50 H I L BNN "Availability"
+F15 "ALPS" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+P 2 0 0 10 -200 100 200 100 N
+P 2 0 0 10 -200 -100 200 -100 N
+P 2 0 0 10 0 -100 0 -50 N
+P 2 0 0 10 0 100 0 50 N
+P 2 0 0 10 0 50 -100 -50 N
+P 2 0 0 10 200 200 -200 200 N
+S -200 -267 200 133 0 0 10 f
+X 1 1 -300 100 100 R 40 40 0 0 P 
+X 2 2 300 100 100 L 40 40 0 0 P 
+X 3 3 -300 -100 100 R 40 40 0 0 P 
+X 4 4 300 -100 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
