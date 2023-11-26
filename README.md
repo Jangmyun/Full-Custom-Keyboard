@@ -73,4 +73,12 @@
     <img src="img/schematic/Kicad4.png">
 </figure>
 
+##### `Preferences > Manage Symbol Libraries` 로 들어가서 압축을 푼 파일 내부의 `.kicad_sym` 확장자를 선택하고 추가해줍니다.
+
+<figure class="third">
+    <img src="img/schematic/Kicad5.png">
+    <img src="img/schematic/Kicad6.png">
+      <img src="img/schematic/Kicad7.png">
 </figure>
+
+##### `Preferences > Manage Footprint Libraries` 로 들어가서 압축을 푼 파일의 Footprint 폴더 안에 있는 모든 폴더를 선택해줍니다.
