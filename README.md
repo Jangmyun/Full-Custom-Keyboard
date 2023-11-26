@@ -74,6 +74,18 @@
 
 ##### 프로젝트 폴더를 열고 `kicad_sch`파일을 열어줍니다.
 
-![add switch and diode](C:\Users\prada\repos\Full-Custom-Keyboard\img\schematic\Kicad3.png)
+![add switch and diode](img\schematic\Kicad3.png)
 
-##### 단축키 `A`를 눌러 스위치와 다이오드 심볼을 추가해주겠습니다. `scotto`로 검색하면 앞서 적용한 심볼 라이브러리를 찾을 수 있습니다.
+##### 단축키 `A`를 눌러 스위치와 다이오드 심볼을 추가해주겠습니다. `scottokeebs`로 검색하면 앞서 적용한 심볼 라이브러리를 찾을 수 있습니다.
+
+![keyswitch and diode](img/schematic/Kicad4.png)
+
+##### 추가한 스위치와 다이오드를 옮겨서 위와같이 만들어줍니다. 스위치와 다이오드 하나가 세트입니다.<br>이제 앞에서 만든 레이아웃대로 스위치와 다이오드를 배치하겠습니다.<br>스위치와 다이오드를 드래그하고 복사하면 됩니다. 일정한 간격으로 배치해야 와이어를 연결할 때 편리합니다.
+
+![schematic](img/schematic/Kicad5.png)
+
+##### 어지럽긴 하지만 이런식으로 배치가 됩니다. 저는 스플릿 키보드라서 좌,우 각각 떨어뜨려놨습니다.<br><br>이제 단축키 `W`로 각 행과 열을 연결해주겠습니다.
+
+![schematic wiring](img/schematic/Kicad6.png)
+
+##### 이런 구조가 되는데, 연결할 때 검은색 원 안의 초록색 점은 서로 연결되었다는 뜻입니다. 연결되지 않은 선 끼리는 빨간색 원처럼 아무것도 표시되지 않습니다.
