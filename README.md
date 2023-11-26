@@ -66,4 +66,12 @@
 
 ![Symbol and Footprint](img/schematic/Kicad2.png)
 
-##### Symbol은 우리가 키보드에 사용할 부품의 회로도 그림이고, Footprint는 pcb 설계할 때 사용할 부품의 실제 그림이라고 생각하면 되겠습니다.<br>우리가 사용할 부품을 잘 정리해놓은 [깃허브 링크](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)가 있습니다.
+##### Symbol은 우리가 키보드에 사용할 부품의 회로도 그림이고, Footprint는 pcb 설계할 때 사용할 부품의 실제 그림이라고 생각하면 되겠습니다.<br>우리가 사용할 부품을 잘 정리해놓은 [scottoKicad](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)가 있습니다. [DownGit](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)사이트에서 바로 다운로드 할 수 있습니다.<br>파일을 다운받았다면 압축을 풀어줍니다.
+
+
+
+<figure class="half">
+    <img
+</figure>
+
+</figure>
