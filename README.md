@@ -44,7 +44,7 @@
 
 ### 회로도 설계전에 알아야 할 내용
 
-#### [키보드 매트릭스 원리 이해하기](https://m.blog.naver.com/kdahaam/221495967863)
+#### [키보드 매트릭스 원리 이해하기](https://m.blog.naver.com/kdahaam/221495967863)에 잘 정리되어 있습니다.
 
 ![keyboard matrix](img/schematic/schematic1.png)
 
@@ -66,10 +66,10 @@
 
 ![Symbol and Footprint](img/schematic/Kicad2.png)
 
-##### Symbol은 우리가 키보드에 사용할 부품의 회로도 그림이고, Footprint는 pcb 설계할 때 사용할 부품의 실제 그림이라고 생각하면 되겠습니다.<br>우리가 사용할 부품을 잘 정리해놓은 [scottoKicad](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)가 있습니다. [DownGit](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)사이트에서 바로 다운로드 할 수 있습니다.<br>라이브러리 적용 방법은
+##### Symbol은 우리가 키보드에 사용할 부품의 회로도 그림이고, Footprint는 pcb 설계할 때 사용할 부품의 실제 그림이라고 생각하면 되겠습니다.<br>우리가 사용할 부품을 잘 정리해놓은 [scottoKicad](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)가 있습니다. [DownGit](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)사이트에서 바로 다운로드 할 수 있습니다.<br>라이브러리 적용 방법은 [KiCad 라이브러리 적용방법](https://github.com/Jangmyun/Full-Custom-Keyboard/tree/main/kicadLibrary)에 정리해두었습니다.
 
 <br><br>
 
 ### 본격적으로 회로도를 그려봅시다.
 
-##### 프로젝트 폴더를 열고 `kicad_sch`파일을 열어줍니다.
+##### 프로젝트 폴더를 열고 `kicad_sch`파일을 열어줍니다.<br>단축키 `A`를 눌러 스위치와 다이오드 심볼을 추가해줄 것입니다.
