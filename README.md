@@ -54,7 +54,7 @@
 
 <br><br>
 
-### 본격적으로 회로도를 그려봅시다.
+### 회로도를 설계전에 필요한 파일 설치
 
 #### KiCad를 실행합니다.
 
@@ -66,19 +66,10 @@
 
 ![Symbol and Footprint](img/schematic/Kicad2.png)
 
-##### Symbol은 우리가 키보드에 사용할 부품의 회로도 그림이고, Footprint는 pcb 설계할 때 사용할 부품의 실제 그림이라고 생각하면 되겠습니다.<br>우리가 사용할 부품을 잘 정리해놓은 [scottoKicad](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)가 있습니다. [DownGit](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)사이트에서 바로 다운로드 할 수 있습니다.<br>파일을 다운받았다면 압축을 풀어줍니다.
+##### Symbol은 우리가 키보드에 사용할 부품의 회로도 그림이고, Footprint는 pcb 설계할 때 사용할 부품의 실제 그림이라고 생각하면 되겠습니다.<br>우리가 사용할 부품을 잘 정리해놓은 [scottoKicad](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)가 있습니다. [DownGit](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)사이트에서 바로 다운로드 할 수 있습니다.<br>라이브러리 적용 방법은
 
-<figure class="half">
-    <img src="img/schematic/Kicad3.png">
-    <img src="img/schematic/Kicad4.png">
-</figure>
+<br><br>
 
-##### `Preferences > Manage Symbol Libraries` 로 들어가서 압축을 푼 파일 내부의 `.kicad_sym` 확장자를 선택하고 추가해줍니다.
+### 본격적으로 회로도를 그려봅시다.
 
-<figure class="third">
-    <img src="img/schematic/Kicad5.png">
-    <img src="img/schematic/Kicad6.png">
-      <img src="img/schematic/Kicad7.png">
-</figure>
-
-##### `Preferences > Manage Footprint Libraries` 로 들어가서 압축을 푼 파일의 Footprint 폴더 안에 있는 모든 폴더를 선택해줍니다.
+##### 프로젝트 폴더를 열고 `kicad_sch`파일을 열어줍니다.
