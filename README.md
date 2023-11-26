@@ -72,4 +72,8 @@
 
 ### 본격적으로 회로도를 그려봅시다.
 
-##### 프로젝트 폴더를 열고 `kicad_sch`파일을 열어줍니다.<br>단축키 `A`를 눌러 스위치와 다이오드 심볼을 추가해줄 것입니다.
+##### 프로젝트 폴더를 열고 `kicad_sch`파일을 열어줍니다.
+
+![add switch and diode](C:\Users\prada\repos\Full-Custom-Keyboard\img\schematic\Kicad3.png)
+
+##### 단축키 `A`를 눌러 스위치와 다이오드 심볼을 추가해주겠습니다. `scotto`로 검색하면 앞서 적용한 심볼 라이브러리를 찾을 수 있습니다.
