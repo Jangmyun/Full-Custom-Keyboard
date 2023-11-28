@@ -98,10 +98,20 @@
 
 ##### 이제 MCU를 회로도에 추가합니다. 스플릿 키보드라서 두개 추가해줍니다. 저는 rp2040-zero를 사용하겠습니다. 단축키 `A`를 누르고 rp2040-zero를 추가합니다.
 
-![rp2040-zero-pinout](img/schematic/rp2040ZeroPinout.png)
-
-###### 출처- https://mischianti.org/waveshare-rp2040-zero-high-resolution-pinout-and-specs/
+[![rp2040-zero-pinout](img/schematic/rp2040ZeroPinout.png)](https://mischianti.org/waveshare-rp2040-zero-high-resolution-pinout-and-specs/)
 
 ![rp2040-zero](img/schematic/rp2040zero.png)
 
 ##### 총 23개의 핀이 있는데 그중에서 `3V3`,`GND`,`5V`외에는 자유롭게 행열을 연결할 수 있습니다. 다만 스플릿 키보드를 만들 때는 좌우 컨트롤러의 시리얼 통신을 위해 `GPIO0`, `GPIO1` 핀을 비워주겠습니다.
+
+![keyboard matrix connection](img/schematic/Kicad8.png)
+
+##### 연결을 완료했습니다. PCB 설계과정에서 다시 돌아와 수정할 수 있으니 연결되는 위치는 크게 중요하지 않습니다.
+
+### [좌우 컨트롤러의 통신 방법 (스플릿 키보드만 해당)](https://docs.qmk.fm/#/serial_driver?id=usart-full-duplex)
+
+##### MCU의 통신방법은 여러가지가 있는데 우리는 시리얼 통신, 그중에서도 `USART Full-Duplex` 방식을 사용하겠습니다. 이름부터 어려워보이는데 그냥 선 네 개만 잘 연결하면 됩니다.<br>좌우의 연결은 3.5mm 이어폰 잭 (TRRS)로 할겁니다. 따라서 3.5mm 이어폰 커넥터를 추가하겠습니다. `Placeholder_TRRS`로 검색해서 두 개 추가해줍니다.
+
+![trrs connection](img/schematic/Kicad9.png)
+
+##### USART Full-Duplex 방식은 TX를 RX에, RX를 TX에 연결해야 합니다. 저는 간단히 TRRS 커넥터의 TX와 RX를 좌우가 엇갈리도록 하겠습니다. 빨간 박스처럼 하면 됩니다.
