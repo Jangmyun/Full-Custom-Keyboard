@@ -110,8 +110,27 @@
 
 ### [좌우 컨트롤러의 통신 방법 (스플릿 키보드만 해당)](https://docs.qmk.fm/#/serial_driver?id=usart-full-duplex)
 
-##### MCU의 통신방법은 여러가지가 있는데 우리는 시리얼 통신, 그중에서도 `USART Full-Duplex` 방식을 사용하겠습니다. 이름부터 어려워보이는데 그냥 선 네 개만 잘 연결하면 됩니다.<br>좌우의 연결은 3.5mm 이어폰 잭 (TRRS)로 할겁니다. 따라서 3.5mm 이어폰 커넥터를 추가하겠습니다. `Placeholder_TRRS`로 검색해서 두 개 추가해줍니다.
+##### MCU의 통신방법은 여러가지가 있는데 우리는 시리얼 통신, 그중에서도 `USART Full-Duplex` 방식을 사용하겠습니다. 이름부터 어려워보이는데 그냥 선 네 개만 잘 연결하면 됩니다.<br>좌우의 연결은 3.5mm 이어폰 잭 (TRRS)로 할겁니다. 따라서 TRRS 커넥터를 추가하겠습니다. `Placeholder_TRRS`로 검색해서 두 개 추가해줍니다.
 
 ![trrs connection](img/schematic/Kicad9.png)
 
 ##### USART Full-Duplex 방식은 TX를 RX에, RX를 TX에 연결해야 합니다. 저는 간단히 TRRS 커넥터의 TX와 RX를 좌우가 엇갈리도록 하겠습니다. 빨간 박스처럼 하면 됩니다.
+
+##### 이제 회로도는 완성됐습니다. PCB파일로 넘어가기 전에 회로도에 들어간 부품들의 실제 Footprint를 지정해줘야 합니다.
+
+![footprint assignment tool](img/schematic/Kicad11.png)
+
+##### 에디터 상단의 Footprint Assignment Tool을 열어줍니다.
+
+![footprint assignment](img/schematic/Kicad12.png)
+
+###### 같은 종류의 부품을 `shift + 마우스클릭`으로 선택해주고 라이브러리에서 부품에 맞는 풋프린트를 더블클릭해주면 적용됩니다.<br>각 부품별 풋프린트의 라이브러리와 이름은 다음과 같습니다.
+
+| 부품          | 라이브러리                  | Footprint이름  |
+| ----------- | ---------------------- | ------------ |
+| Diode       | ScottoKeebs_Components | Diode_D0-35  |
+| Keyswitch   | ScottoKeebs_MX         | MX_PCB_1.00u |
+| RP2040_Zero | ScottoKeebs_MCU        | RP2040_Zero  |
+| TRRS        | ScottoKeebs_Components | TRRS_PJ-320A |
+
+##### 여기까지 하면 회로도는 완성입니다.
