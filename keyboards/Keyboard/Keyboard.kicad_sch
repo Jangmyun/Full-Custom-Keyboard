@@ -1933,6 +1933,30 @@
     )
   )
 
+  (symbol (lib_id "ScottoKeebs:Placeholder_Mounting_Hole") (at 100.33 162.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1d05bb5b-1430-4ad2-99cd-fc39f214a5ff)
+    (property "Reference" "H12" (at 102.87 161.29 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mounting_Hole" (at 102.87 163.83 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 100.33 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 100.33 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Keyboard"
+        (path "/63a9847b-cdc2-4bdd-9a63-560a857f6935"
+          (reference "H12") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "ScottoKeebs:Placeholder_Diode") (at 80.01 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1eb2e453-cd08-4343-8dc6-314a2069afc7)
@@ -3024,6 +3048,30 @@
       (project "Keyboard"
         (path "/63a9847b-cdc2-4bdd-9a63-560a857f6935"
           (reference "D40") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ScottoKeebs:Placeholder_Mounting_Hole") (at 78.74 161.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7012e789-25dd-4864-bc23-31460efb60d6)
+    (property "Reference" "H11" (at 81.28 160.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mounting_Hole" (at 81.28 162.56 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 78.74 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 78.74 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Keyboard"
+        (path "/63a9847b-cdc2-4bdd-9a63-560a857f6935"
+          (reference "H11") (unit 1)
         )
       )
     )
