@@ -194,4 +194,30 @@
 
 ![diode positioning complete](img/pcb/pcb13.png)
 
-##### 다이오드 정렬이 끝났습니다. 이제 rp2040-zero와 trrs 커넥터를 배치하고 회로도에 맞춰 선을 연결해주겠습니다.<br>단축키 `X`키로 라우팅을 시작할 수 있습니다.
+##### 다이오드 정렬이 끝났습니다. 이제 rp2040-zero와 trrs 커넥터를 배치하고 회로도에 맞춰 선을 연결해주겠습니다.<br>단축키 `X`키로 배선을 시작할 수 있습니다.<br>배선작업을 하기 전에 미리 볼트가 들어갈 구멍을 뚫고 시작해도 됩니다.
+
+#### [KiCAD 사용법 강좌-배선/Copper/비아뚫기 - YouTube](https://youtu.be/5w91CukhzNU?si=pJJ6Ocjb_U-1WQmc)
+
+##### 위 영상에서는 배선 굵기를 조절하는데, 우리는 스위치가 눌린 것만 인식하면 되는 키보드라 따로 조절할 필요는 없습니다. `F.Cu`와 `B.Cu`를 단축키 `V`로 바꿔가면서 배선을 할 수 있습니다.
+
+![routing](img/pcb/pcb15.png)
+
+##### 빨간색이 `F.Cu`고 초록색이 `B.Cu`입니다. 두 선은 각각 앞면, 뒷면의 배선이기 때문에 겹쳐도 합선되지 않습니다. 적절히 섞어가면서 배선작업을 해주면 됩니다.
+
+![routing complete](img/pcb/pcb16.png)
+
+##### 배선이 완료되었습니다. 저는 여기서 기판을 고정할 볼트가 들어갈 구멍을 뚫어주겠습니다. 다시 회로도 에디터로 돌아갑니다.
+
+![Mounting Hole](img/pcb/pcb17.png)
+
+##### `Placeeholder_Mounting_Hole`로 검색하고 추가해줍니다.<br>Footprint Assignment Tool을 열어 `MountingHole` 라이브러리의 `MountingHole_2.2mm_M2`를 선택해줍니다. M2 사이즈의 볼트를 사용할겁니다.
+
+##### 다시 PCB 에디터로 돌아와 회로도의 변경사항을 업데이트해줍니다.
+
+![Mounting hole added](img/pcb/pcb18.png)
+
+##### 나사 체결 홀이 생겼습니다. 이제 이걸 적절한 위치에 배치해주겠습니다.
+
+![mountinghole align](img/pcb/pcb19.png)
+
+##### 배치가 완료됐습니다. 이제 기판의
