@@ -152,7 +152,7 @@
 
 ![pcb updated](img/pcb/pcb4.png)
 
-##### 이제 어지럽게 얽힌 풋프린트들이 에디터에 생깁니다. 서로 연결된 선끼리 이어주면 됩니다. 그 전에 만드려는 키보드의 레이아웃에 맞게 스위치와 다이오드를 정렬해줘야 합니다.
+##### 이제 어지럽게 얽힌 풋프린트들이 에디터에 생깁니다. 서로 연결된 선끼리 이어주면 됩니다. 그 전에 만들고자 하는 키보드의 레이아웃에 맞게 스위치와 다이오드를 정렬해줘야 합니다.
 
 ##### 스위치 하나의 가로세로 길이는 `19.05mm`입니다. pcb에디터의 격자 사이즈를 19.05mm를 4로 나눈 `4.7625mm`로 설정하고 진행하겠습니다.
 
@@ -220,4 +220,42 @@
 
 ![mountinghole align](img/pcb/pcb19.png)
 
-##### 배치가 완료됐습니다. 이제 기판의
+##### 배치가 완료됐습니다.
+
+#### 이제 기판의 가장자리 커팅라인을 그려줘야 합니다.
+
+![edge cut](img/pcb/pcb20.png)
+
+##### `Edge.Cuts`를 선택해주고 직선과 호를 그려 PCB의 모양을 잡아주겠습니다.
+
+![edge cuts](img/pcb/pcb21.png)
+
+##### 이런 모양이 됩니다. 왼쪽 오른쪽 따로 만들어도 되는데 주문시 가격이 더 올라가기 때문에 통째로 만들어서 잘라서 사용하는 방식으로 하겠습니다.
+
+#### Design Rules Checker로 잘못된 부분이 있는지 확인해보겠습니다.
+
+![DRC](img/pcb/designRulesChecker.png)
+
+![DRC](img/pcb/designRulesChecker2.png)
+
+##### `Run DRC`버튼을 눌러 확인합니다. `Warnings`에 12개가 나오지만 일단 `Errors`를 중점적으로 체크해주면 됩니다.
+
+![silkscreen warning](img/pcb/silkscreenWarning.png)
+
+##### `Warning`은 대부분 실크스크린(PCB위에 실제로 그려지는 부분)이 잘리면서 생기는 것이 대부분입니다. 크게 신경쓰지 않아도 작동에 이상이 없습니다.
+
+#### 이제 PCB의 나머지 부분을 구리로 채워주겠습니다.
+
+<p width="100%">
+  <img src="img/pcb/pcb22.png" width="20%">
+  <img src="img/pcb/pcb23.png" width="70%">
+</p>
+
+
+##### 단축키`Ctrl + Shift + Z`나 `Add filled Zone` 버튼을 누르고 에디터의 빈 공간을 클릭해줍니다.<br>레이어를 두개 다 체크 해주고 OK버튼을 누릅니다.
+
+![filled zone](img/pcb/pcb24.png)
+
+![filled zone](img/pcb/pcb25.png)
+
+##### PCB 전체를 감싸주고 단축키 `B`키를 눌러 채워줍니다.
