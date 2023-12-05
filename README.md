@@ -265,11 +265,17 @@
 
 ##### 위 링크는 우리가 PCB를 주문할 업체인 JLCPCB의 설명문입니다. 그대로 따라해서 거버파일을 한 폴더에 저장하면 됩니다.
 
+###### 수정사항:
+
+![fix](img/pcb/fix.png)
+
+###### pcb의 전체적인 디자인과 홀 위치를 수정했습니다.
+
 <br><br>
 
 4. ## 보강판, 하판 설계
 
-##### 이제 보강판, 하판 설계를 해야합니다. 저는 Fusion360 무료버전을 사용해서 만들었습니다.<br>이 부분은 설명하기가 너무 어려워서 잘 만들어진 유튜브 강좌로 대체하겠습니다.
+##### 이제 보강판, 하판 설계를 해야합니다. 저는 Fusion360 무료버전을 사용해서 만들었습니다.<br>이 부분은 설명하기가 너무 어려워서 잘 만들어진 유튜브 강좌로 대체하겠습니다.<br>진짜 너무 어려워서 설계하기가 힘들다 하시는 분들은 스위치를 고를 때 5핀 스위치를 선택하시고 하판은 최소구매 수량때문에 남는 PCB를 하판으로 이용하면 됩니다. <br>근데 이러면 키보드가 정말 기괴해지니까 저는 보강판을 설계하겠습니다.
 
 [메이커를 위한 Fusion 360 모델링 - YouTube](https://youtube.com/playlist?list=PLovJKdHnVxzlUSWneVlyuwuWpvtWabgab&si=KHW3WNaJRUbpsRhU)
 
@@ -281,7 +287,19 @@
 
 [CherryMX.pdf - Google Drive](https://drive.google.com/file/d/1mCyr-2AKkUAvFVv7urUcg1ZXiUHRZjrM/view)
 
-##### 위 링크는 체리MX 스위치의 상세 스펙입니다. 망할 인치로 표기되어있습니다..
+##### 위 링크는 체리MX 스위치의 상세 스펙입니다. 인치로 표기되어있습니다..
+
+![upperplate](img/plate/plate0.png)
+
+##### 상판을 간단한 구조로 만들었습니다. MCU가 걸리지 않도록 MCU 체결 부분을 통째로 비워주었습니다.
+
+![lowerplate](img/plate/plate2.png)
+
+##### 하판도 만들어 주었습니다.
+
+![housing](img/plate/plate1.jpg)
+
+##### 실제로 체결하게 되면 이렇게 됩니다.
 
 [How to save or export a Sketch as DXF in Fusion 360](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/How-to-Save-Sketch-as-DXF-in-Fusion-360.html)
 
