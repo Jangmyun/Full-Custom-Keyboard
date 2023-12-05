@@ -2389,6 +2389,30 @@
     )
   )
 
+  (symbol (lib_id "ScottoKeebs:Placeholder_Mounting_Hole") (at 78.74 168.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 418373db-7810-481a-ba5a-e7be348164de)
+    (property "Reference" "H13" (at 81.28 167.64 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mounting_Hole" (at 81.28 170.18 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 78.74 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 78.74 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Keyboard"
+        (path "/63a9847b-cdc2-4bdd-9a63-560a857f6935"
+          (reference "H13") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "ScottoKeebs:Placeholder_Keyswitch") (at 25.4 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 421a186a-14d0-440a-bd1d-bab0a89a6802)
@@ -2957,6 +2981,54 @@
     )
   )
 
+  (symbol (lib_id "ScottoKeebs:Placeholder_Mounting_Hole") (at 100.33 176.53 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 697e1c8d-64ba-4e3a-927c-8dedd6a92203)
+    (property "Reference" "H16" (at 102.87 175.26 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mounting_Hole" (at 102.87 177.8 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 100.33 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 100.33 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Keyboard"
+        (path "/63a9847b-cdc2-4bdd-9a63-560a857f6935"
+          (reference "H16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ScottoKeebs:Placeholder_Mounting_Hole") (at 78.74 175.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 698b79ce-9e6d-46f2-abec-958caa10c283)
+    (property "Reference" "H15" (at 81.28 173.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mounting_Hole" (at 81.28 176.53 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 78.74 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 78.74 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Keyboard"
+        (path "/63a9847b-cdc2-4bdd-9a63-560a857f6935"
+          (reference "H15") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "ScottoKeebs:Placeholder_Diode") (at 29.21 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69b65873-e8dd-42f9-85c5-a254192263a7)
@@ -3357,6 +3429,30 @@
       (project "Keyboard"
         (path "/63a9847b-cdc2-4bdd-9a63-560a857f6935"
           (reference "S25") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ScottoKeebs:Placeholder_Mounting_Hole") (at 100.33 170.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8a0b1b6c-b779-43c5-b8df-6d2f71137345)
+    (property "Reference" "H14" (at 102.87 168.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mounting_Hole" (at 102.87 171.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 100.33 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 100.33 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Keyboard"
+        (path "/63a9847b-cdc2-4bdd-9a63-560a857f6935"
+          (reference "H14") (unit 1)
         )
       )
     )
