@@ -16,11 +16,13 @@
 
 3. #### pcb 설계
 
-4. #### pcb, 부품 주문
+4. #### 보강판, 상판 설계
 
-5. #### 납땜, qmk 펌웨어 플래시
+5. #### pcb, 부품 주문
 
-6. #### 완성
+6. #### 납땜, qmk 펌웨어 플래시
+
+7. #### 완성
 
 <br><br>
 
@@ -251,11 +253,36 @@
   <img src="img/pcb/pcb23.png" width="70%">
 </p>
 
-
 ##### 단축키`Ctrl + Shift + Z`나 `Add filled Zone` 버튼을 누르고 에디터의 빈 공간을 클릭해줍니다.<br>레이어를 두개 다 체크 해주고 OK버튼을 누릅니다.
 
 ![filled zone](img/pcb/pcb24.png)
 
 ![filled zone](img/pcb/pcb25.png)
 
-##### PCB 전체를 감싸주고 단축키 `B`키를 눌러 채워줍니다.
+##### PCB 전체를 감싸주고 단축키 `B`키를 눌러 채워줍니다.<br>PCB 디자인의 모든 과정이 끝났습니다. 이제 이 파일을 거버 `.gbr` 파일로 저장해야합니다.
+
+#### [How to generate Gerber and Drill files in KiCad 7](https://jlcpcb.com/help/article/362-how-to-generate-gerber-and-drill-files-in-kicad-7)
+
+##### 위 링크는 우리가 PCB를 주문할 업체인 JLCPCB의 설명문입니다. 그대로 따라해서 거버파일을 한 폴더에 저장하면 됩니다.
+
+<br><br>
+
+4. ## 보강판, 하판 설계
+
+##### 이제 보강판, 하판 설계를 해야합니다. 저는 Fusion360 무료버전을 사용해서 만들었습니다.<br>이 부분은 설명하기가 너무 어려워서 잘 만들어진 유튜브 강좌로 대체하겠습니다.
+
+[메이커를 위한 Fusion 360 모델링 - YouTube](https://youtube.com/playlist?list=PLovJKdHnVxzlUSWneVlyuwuWpvtWabgab&si=KHW3WNaJRUbpsRhU)
+
+##### 약 2시간 반 정도 강의 따라가면 `.dxf` 형식의 평면 도면 정도는 쉽게 만들 수 있습니다.
+
+![mxSwitch size](img/fusion360switchSize.png)
+
+##### mx 스위치 상판에는 스위치를 끼울 구멍을 내야하는데, `14mm`로 만들면 됩니다. 저도 아직 툴 사용이 미숙해서 Fusion360 단축키 `D`를 사용해서 길이 노가다를 해줬습니다.
+
+[CherryMX.pdf - Google Drive](https://drive.google.com/file/d/1mCyr-2AKkUAvFVv7urUcg1ZXiUHRZjrM/view)
+
+##### 위 링크는 체리MX 스위치의 상세 스펙입니다. 망할 인치로 표기되어있습니다..
+
+[How to save or export a Sketch as DXF in Fusion 360](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/How-to-Save-Sketch-as-DXF-in-Fusion-360.html)
+
+##### 만든 도면을 DXF 파일로 저장해줍니다.
