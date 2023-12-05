@@ -76,7 +76,9 @@
 
 ##### 프로젝트 폴더를 열고 `kicad_sch`파일을 열어줍니다.
 
-![add switch and diode](img\schematic\Kicad3.png)
+<p width="100%">
+  <img src="img/schematic/Kicad3.png" width="50%">
+</p>
 
 ##### 단축키 `A`를 눌러 스위치와 다이오드 심볼을 추가해주겠습니다. `scottokeebs`로 검색하면 앞서 적용한 심볼 라이브러리를 찾을 수 있습니다.
 
@@ -281,7 +283,9 @@
 
 ##### 약 2시간 반 정도 강의 따라가면 `.dxf` 형식의 평면 도면 정도는 쉽게 만들 수 있습니다.
 
-![mxSwitch size](img/fusion360switchSize.png)
+<p width="100%">
+  <img src="img/fusion360switchSize.png" width="40%">
+</p>
 
 ##### mx 스위치 상판에는 스위치를 끼울 구멍을 내야하는데, `14mm`로 만들면 됩니다. 저도 아직 툴 사용이 미숙해서 Fusion360 단축키 `D`를 사용해서 길이 노가다를 해줬습니다.
 
@@ -289,15 +293,16 @@
 
 ##### 위 링크는 체리MX 스위치의 상세 스펙입니다. 인치로 표기되어있습니다..
 
-![upperplate](img/plate/plate0.png)
+<p width="100%">
+  <img src="img/plate/plate0.png" width="40%">
+  <img src="img/plate/plate2.png" width="40%">
+</p>
 
-##### 상판을 간단한 구조로 만들었습니다. MCU가 걸리지 않도록 MCU 체결 부분을 통째로 비워주었습니다.
+##### 보강판과 하판을 만들어주었습니다. 일단 보강판을 만들면 하판은 거기서 조금만 수정하면 됩니다.
 
-![lowerplate](img/plate/plate2.png)
-
-##### 하판도 만들어 주었습니다.
-
-![housing](img/plate/plate1.jpg)
+<p width="100%">
+  <img src="img/plate/plate1.jpg" width="40%">
+</p>
 
 ##### 실제로 체결하게 되면 이렇게 됩니다.
 
