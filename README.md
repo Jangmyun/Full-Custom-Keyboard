@@ -309,3 +309,41 @@
 [How to save or export a Sketch as DXF in Fusion 360](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/How-to-Save-Sketch-as-DXF-in-Fusion-360.html)
 
 ##### 만든 도면을 DXF 파일로 저장해줍니다.
+
+<br><br>
+
+5. ## PCB, 부품 주문
+
+##### 이제 PCB와 보강판 설계가 완료됐으니 주문을 해야합니다.
+
+#### PCB:
+
+##### PCB의 경우 [JLCPCB](https://jlcpcb.com/)에서 주문할 수 있습니다.
+
+![order](img/order/order0.png)
+
+##### 사이트 회원가입/로그인 후 `Order now`를 누르고 미리 만들어둔 Gerber 파일이 든 폴더를 zip파일로 압축해서 업로드합니다.
+
+![order1](img/order/order1.png)
+
+##### 파일이 정상이라면 다음처럼 Gerber viewer가 표시됩니다.<br>주문서 아래를 보면 옵션이 매우매우 많은데 우리가 볼 것은 `PCB Color`와 `Surface Finish`뿐입니다. PCB의 색깔은 개인취향에 따라 선택하면 되고 표면마감의 경우 `HASL`과 `ENIG` 방식이 있습니다. 간단히 말하면 `HASL`가 더 싸고, `ENIG`가 마감은 더 좋지만 비쌉니다. 저는 저렴한 HASL로 결정했습니다.<br>결제는 해외결제 카드나 페이팔을 이용하면 됩니다. 아마 처음 회원가입 시 주는 쿠폰이 있을텐데 최대한 이용하는 걸 추천합니다.
+
+##### <br>
+
+#### 보강판:
+
+##### 보강판, 하판은 아크릴로 만들건데, [아트릴](http://www.artryl.com/)이라는 곳을 이용하겠습니다.<br>`제작문의 > 글쓰기`에서 만든 DXF파일을 업로드해주고 원하는 아크릴 색상과 두께를 적어주면 됩니다.<br>저는 상판, 하판 모두 `2t (2mm)`로 했습니다.
+
+<br>
+
+#### 나머지 부품들:
+
+##### [rp2040-zero](https://ko.aliexpress.com/item/1005004281549886.html?spm=a2g0o.productlist.main.1.354e62cbC70N9T&algo_pvid=626a833b-b21b-42ce-b56c-c0ea334f0c61&algo_exp_id=626a833b-b21b-42ce-b56c-c0ea334f0c61-0&pdp_npi=4%40dis%21USD%212.29%211.92%21%21%212.29%21%21%402101fb1717018272371176484eafc5%2112000028615122543%21sea%21KR%21736615590%21&curPageLogUid=QE96GyUpw6MU)
+
+##### [Male-Female/M2x3 & Female-Female/M2x3](https://ko.aliexpress.com/item/1005004564012666.html?spm=a2g0o.cart.0.0.5fbb56baDkGYG4&mp=1&gatewayAdapt=glo2kor)
+
+##### [M2/4mm](https://ko.aliexpress.com/item/1005005070119421.html?spm=a2g0o.cart.0.0.5fbb56baDkGYG4&mp=1&gatewayAdapt=glo2kor)
+
+<br>
+
+##### 제작에 필요한 부품을 모두 구매했습니다. 이제 도착할 때까지 기다리면 됩니다..
